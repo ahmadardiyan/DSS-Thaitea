@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: 20 Mei 2019 pada 20.17
+-- Generation Time: 20 Mei 2019 pada 21.34
 -- Versi Server: 5.7.24-0ubuntu0.18.04.1
 -- PHP Version: 7.2.10-0ubuntu0.18.04.1
 
@@ -88,9 +88,8 @@ INSERT INTO `waralaba` (`id`, `nama_waralaba`, `phone`, `alamat`, `jarak`, `bobo
 (3, 'Fremilt', '081', 'Sukoharjo', 56, 5, 16500000, 5, 18000000, 1, 230, 5, '', '5ce24e2b73985.png', '2019-05-19 15:30:23', NULL),
 (4, 'Nyot Nyot Thaitea', '081', 'Surakarta', 59, 5, 16000000, 5, 13000000, 1, 100, 3, '', '5ce24e346ec24.png', '2019-05-19 15:31:21', NULL),
 (5, 'Kako Thaitea', '081', 'Jakarta Utara', 559, 1, 20600000, 5, 22750000, 1, 50, 2, '', '5ce24e40adc27.png', '2019-05-19 15:32:26', NULL),
-(6, 'Khabkun Thaitea', '081', 'Semarang', 108, 5, 16500000, 5, 1500000, 5, 120, 3, '', '5ce24e4a79039.png', '2019-05-19 15:33:26', NULL),
-(7, 'Mao Mao Thaitea', '081', 'Tangerang', 583, 1, 14400000, 5, 12000000, 2, 40, 1, '', '5ce24e55cec62.png', '2019-05-19 15:34:29', NULL),
-(9, 'THai', '091', 'tetet', 76, 5, 81030900, 5, 192840020, 1, 1738494038, 5, 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', '5ce2a520976b61.png', '2019-05-20 13:01:21', NULL);
+(6, 'Khabkun Thaitea', '081', 'Semarang', 108, 5, 16500000, 5, 15000000, 1, 120, 3, '', '5ce2ba48d49a61.png', '2019-05-19 15:33:26', NULL),
+(7, 'Mao Mao Thaitea', '081', 'Tangerang', 583, 1, 14400000, 5, 12000000, 2, 40, 1, '', '5ce24e55cec62.png', '2019-05-19 15:34:29', NULL);
 
 --
 -- Indexes for dumped tables

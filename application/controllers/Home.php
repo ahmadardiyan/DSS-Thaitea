@@ -56,6 +56,12 @@ class Home extends CI_Controller
             $W3 = $C3 / $totalW; // -
             $W4 = $C4 / $totalW; // +
 
+            // var_dump($W1);
+            // var_dump($W2);
+            // var_dump($W3);
+            // var_dump($W4);
+            // die();
+
             // 3. Menghitung Vektor S
             // S[i] = C1^-W1 * C2^W2 * C3^-W3 * C4^W4
 
@@ -67,6 +73,9 @@ class Home extends CI_Controller
                     'nama'  => $waralaba['nama_waralaba'],
                     'nilai' => pow($waralaba['bobot_jarak'], -$W1) * pow($waralaba['bobot_laba'], $W2) * pow($waralaba['bobot_modal'], -$W3) * pow($waralaba['bobot_jumlah_cabang'], $W4)];
             }
+
+            // var_dump($vektorS);
+            // die();
 
             // 4. Menghitung Preferensi (V)
             // V[i] = S[i] / totalS
@@ -85,6 +94,9 @@ class Home extends CI_Controller
                 $i++;
             }
     
+            //  var_dump($totalS);
+            // die();
+
             // 5. Pengurutan / Perangkingan
             
             function array_orderby()
